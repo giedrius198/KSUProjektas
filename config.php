@@ -2,7 +2,7 @@
     $host = 'localhost';
     $host_user = 'root';
     $host_pass = '';
-    $db = 'KSUP';
+    $db = 'ksup';
 
     $conn = new mysqli($host, $host_user, $host_pass, $db);
 
