@@ -18,10 +18,10 @@
 
         <script type="text/javascript">
             document.getElementById("logIn").onclick = function () {
-                location.href = "auth.php";
+                location.href = "login.php";
             };
             document.getElementById("Reg").onclick = function () {
-                location.href = "autent.php";
+                location.href = "register.php";
                 sessionStorage.setItem("OpenReg", "true");
             };
         </script>
