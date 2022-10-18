@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>KSU Straipsniai</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>KSU Straipsniai</title>
 
-<h1>Main Page</h1>
-<p>My first paragraph.</p>
+        <style></style>
+    </head>
+    <body>
+        <header>
+            <button type="button" name="connect" class="btn btn-primary">Register</button> 
+        </header>
+        <main>
 
-<div style="text-align: center">
-    <h1>Wellcome</h1>
-    <p>You must be logged in or registered user to use all features.</p>
-    <button type="button" id="logIn" class="btn btn-light" data-mdb-ripple-color="dark">Log in</button>
-    <button type="button" id="Reg" class="btn btn-dark">Register</button>
-</div>
-
-<script type="text/javascript">
-    document.getElementById("logIn").onclick = function () {
-        location.href = "auth.php";
-    };
-    document.getElementById("Reg").onclick = function () {
-        location.href = "register.php";
-        sessionStorage.setItem("OpenReg", "true");
-    };
-    </script>
-
-</body>
+        </main>
+        <footer></footer>
+        <script type="text/javascript">
+            document.getElementByName("connect").onclick = function () {
+                location.href = "welcome.php";
+                sessionStorage.setItem("OpenReg", "true");
+            };
+        </script>
+    </body>
 </html> 
