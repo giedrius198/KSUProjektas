@@ -6,19 +6,20 @@
         <title>KSU Straipsniai</title>
 
         <style></style>
+
     </head>
     <body>
         <header>
-            <button type="button" name="connect" class="btn btn-primary">Register</button> 
+            <button type="button" id="Connect" class="btn btn-primary">Prisijungti</button> 
         </header>
         <main>
-
+            <h1>MAIN PAGE</h1>
         </main>
         <footer></footer>
         <script type="text/javascript">
-            document.getElementByName("connect").onclick = function () {
+            document.getElementById("connect").onclick = function () {
                 location.href = "welcome.php";
-                sessionStorage.setItem("OpenReg", "true");
+                sessionStorage.setItem("OpenConnect", "true");
             };
         </script>
     </body>
