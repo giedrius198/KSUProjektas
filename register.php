@@ -55,7 +55,7 @@
                 $conn->query($sql);
 
                 $_SESSION['user']=$email;
-                header("Location: index.html");
+                header("Location: index.php");
             }
                 $conn->close();
             } 
@@ -68,128 +68,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registracija</title>
-
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                border: 0;
-                box-sizing: border-box;
-            }
-            
-            header{
-                background-color: navy;
-                min-height: 110px; 
-            }
-            
-            .wrapper{
-                min-height: 545px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            h2{
-               margin: 20px 0;
-               text-align: center;
-            }
-            
-            form{
-                display: flex;
-                flex-direction: column;
-                width: 400px;   
-            }
-            
-            .form-group{
-                margin-bottom: 1rem;
-            }
-            
-            label{
-                display: inline-block;
-            }
-            
-            .form-control {
-              display: block;
-              width: 100%;
-              height: calc(1.5em + 0.75rem + 2px);
-              margin:10px 0;
-              padding: 10px;
-              font-size: 1rem;
-              font-weight: 400;
-              line-height: 1.5;
-              color: #495057;
-              background-color: #fff;
-              background-clip: padding-box;
-              border: 1px solid #ced4da;
-              border-radius: 0.25rem;
-              transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-            }
-            
-            .form-control:focus, .btn:focus {
-		border-color: #a177ff;
-		box-shadow: 0 0 8px #c2a8ff;
-            }
-            
-            .invalid-feedback {
-                display: none;
-                width: 100%;
-                margin-top: 0.25rem;
-                font-size: 80%;
-                color: #dc3545;
-            }
-            
-            .was-validated :invalid ~ .invalid-feedback,
-            .is-invalid ~ .invalid-feedback{
-              display: block;
-            }
-            
-            .was-validated .form-control:invalid, .form-control.is-invalid {
-                border-color: #dc3545;
-                padding-right: calc(1.5em + 0.75rem);
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
-                background-repeat: no-repeat;
-                background-position: right calc(0.375em + 0.1875rem) center;
-                background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
-            }
-            
-            .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
-                border-color: #dc3545;
-                box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-            }
-
-            
-            input[type=submit]{
-               padding: 10px;
-               background: #e3e3e3;
-               border: unset;
-               cursor: pointer;
-            }
-            
-            input[type=submit]:hover{
-                background-color: #E0FFFF;              
-            }
-            
-            p{
-              margin-top: 0;
-              margin-bottom: 1rem;
-            }
-                        
-            a{
-              color: #007bff;
-              text-decoration: none;
-              background-color: transparent;
-            }
-            
-            a:hover{
-              color: #0056b3;
-              text-decoration: underline;
-            }            
-            
-            footer{
-                background-color: grey;
-                min-height: 90px;
-            }          
-        </style>
+        <link rel="stylesheet" type="text/css" href="css\register.css">
     </head>
     <body>
     <header></header>
