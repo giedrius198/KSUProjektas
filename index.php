@@ -54,60 +54,56 @@
 
             /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
             @media screen and (max-width: 500px) {
-            .header a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-            .header-right {
-                float: none;
-            }
+                .header a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+                .header-right {
+                    float: none;
+                }
             }
 
-            a.button {
+/*           a.button {
                 -webkit-appearance: button;
                 -moz-appearance: button;
                 appearance: button;
                 text-decoration: none;
                 color: initial;
-            }
+            }*/
 
-            nav{
-                position: relative;
-            }
 
             
 
             li {
+                float: left;
+            }
+
+            li a {
                 display: block;
-                transition-duration: 0.5s;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
             }
 
-             li:hover {
-                cursor: pointer;
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+                background-color: #111;
             }
 
-            ul li ul {
-                visibility: hidden;
-                opacity: 0;
-                position: absolute;
-                transition: all 0.5s ease;
-                margin-top: 1rem;
-                left: 0;
-                display: none;
+            .active {
+                background-color: #04AA6D;
             }
 
-            ul li:hover > ul,
-            ul li ul:hover {
-                visibility: visible;
-                opacity: 1;
-                display: block;
+             /* Add a gray right border to all list items, except the last item (last-child) */
+            li {
+                border-right: 1px solid #bbb;
             }
 
-            ul li ul li {
-                clear: both;
-                width: 100%;
-            }
+            li:last-child {
+                border-right: none;
+            } 
         </style>
 
     </head>
