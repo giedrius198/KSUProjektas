@@ -1,6 +1,16 @@
 <?php
     // Initialize the session
     session_start();
+
+    # Aktyvaus vartotojo sesijos tikrinimas PVZ
+
+    // if(isset($_SESSION['user'])) {
+    //     echo 'Prisjunges';
+    // } else {
+    //     echo 'atsijunges';
+    // }
+
+    // exit;
 ?>
 <!DOCTYPE>
 <html>
