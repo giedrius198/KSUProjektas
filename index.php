@@ -10,6 +10,10 @@
         <title>Home page</title>
 
         <style>
+            body {
+                margin: 0;
+            }
+
             /* Style the header with a grey background and some padding */
             .header {
             overflow: hidden;
@@ -52,6 +56,38 @@
             float: right;
             }
 
+            ul.topnav li {
+                float: left;
+                background-color: #f1f1f1;
+            }
+
+            ul.topnav li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            ul.topnav li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            ul.topnav li a.active {
+                background-color: #04AA6D;
+            }
+
+            /* Add a gray right border to all list items, except the last item (last-child) */
+            li {
+                border-right: 1px solid #bbb;
+            }
+
+            li:last-child {
+                border-right: none;
+            }
+
+
+
             /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
             @media screen and (max-width: 500px) {
                 .header a {
@@ -62,48 +98,11 @@
                 .header-right {
                     float: none;
                 }
+                ul.topnav li {
+                    float: none;
+                }
             }
-
-/*           a.button {
-                -webkit-appearance: button;
-                -moz-appearance: button;
-                appearance: button;
-                text-decoration: none;
-                color: initial;
-            }*/
-
-
-            
-
-            li {
-                float: left;
-            }
-
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-
-            /* Change the link color to #111 (black) on hover */
-            li a:hover {
-                background-color: #111;
-            }
-
-            .active {
-                background-color: #04AA6D;
-            }
-
-             /* Add a gray right border to all list items, except the last item (last-child) */
-            li {
-                border-right: 1px solid #bbb;
-            }
-
-            li:last-child {
-                border-right: none;
-            } 
+             
         </style>
 
     </head>
@@ -118,22 +117,22 @@
         </header>
         
         <nav role="navigation">
-			<ul>
-				<li><a href="#">Pirma komanda</a>
+			<ul class="topnav">
+				<li><a class="active" href="#">item 1</a>
                     <ul class="dropdown">
                         <li><a href="#">Sub-1</a></li>
                         <li><a href="#">Sub-2</a></li>
                         <li><a href="#">Sub-3</a></li>
                     </ul>
                 </li>
-				<li><a href="#">Antra komanda</a>
+				<li><a href="#">item 2</a>
                     <ul class="dropdown">
                         <li><a href="#">Sub-1</a></li>
                         <li><a href="#">Sub-2</a></li>
                         <li><a href="#">Sub-3</a></li>
                     </ul>
                 </li>
-				<li><a href="#">Apie</a>
+				<li><a href="#">item 3</a>
                     <ul class="dropdown">
                         <li><a href="#">Sub-1</a></li>
                         <li><a href="#">Sub-2</a></li>
