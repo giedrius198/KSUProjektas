@@ -25,7 +25,7 @@
 				<li><a class="active" href="index.php">HOME</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">item 3</a></li>
-                <li><input type="text" style="float:right" placeholder="Search.."></li>
+                <li style="float:right"><input type="text" placeholder="IEŠKOTI..."></li>
 			</ul>
 		</nav>
 
