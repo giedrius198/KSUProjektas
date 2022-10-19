@@ -23,9 +23,9 @@
         <nav role="navigation">
 			<ul class="navbar">
 				<li><a class="active" href="index.php">HOME</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="#">ABOUT</a></li>
 				<li><a href="#">item 3</a></li>
-                <li><input type="text" placeholder="Search.."></li>
+                <li><input type="text" style="float:right" placeholder="Search.."></li>
 			</ul>
 		</nav>
 
