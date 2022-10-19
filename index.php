@@ -38,7 +38,7 @@
                     </ul>
                 </li>
                 <li>
-                    <input type="text" placeholder="Search..">
+                    <input type="text" style="float:right" placeholder="Search..">
                 </li>
 			</ul>
 		</nav>
