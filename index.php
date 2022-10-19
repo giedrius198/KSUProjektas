@@ -56,19 +56,24 @@
             float: right;
             }
 
+            /* Add a black background color to the top navigation bar */
             ul.topnav li {
-                float: left;
-                background-color: #f1f1f1;
+                overflow: hidden;
+                background-color: #e9e9e9;
             }
 
+            /* Style the links inside the navigation bar */
             ul.topnav li a {
+                float: left;
                 display: block;
-                color: white;
+                color: black;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
+                font-size: 17px;
             }
 
+            /* Style the "active" element to highlight the current page */
             ul.topnav li a:hover:not(.active) {
                 background-color: #111;
             }
@@ -86,20 +91,29 @@
                 border-right: none;
             }
 
+            /* Style the search box inside the navigation bar */
+                .topnav input[type=text] {
+                float: right;
+                padding: 6px;
+                border: none;
+                margin-top: 8px;
+                margin-right: 16px;
+                font-size: 17px;
+            }
 
 
             /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
             @media screen and (max-width: 500px) {
-                .header a {
+                .topnav a, .topnav input[type=text] {
                     float: none;
                     display: block;
                     text-align: left;
+                    width: 100%;
+                    margin: 0;
+                    padding: 14px;
                 }
-                .header-right {
-                    float: none;
-                }
-                ul.topnav li {
-                    float: none;
+                .topnav input[type=text] {
+                    border: 1px solid #ccc;
                 }
             }
              
@@ -138,6 +152,9 @@
                         <li><a href="#">Sub-2</a></li>
                         <li><a href="#">Sub-3</a></li>
                     </ul>
+                </li>
+                <li>
+                    <input type="text" placeholder="Search..">
                 </li>
 			</ul>
 		</nav>
