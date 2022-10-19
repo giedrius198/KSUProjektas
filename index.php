@@ -21,19 +21,13 @@
         </header>
         
         <nav role="navigation">
-			<ul class="topnav">
-				<li><a class="active" href="#">item 1</a>
+			<ul class="navbar">
+				<li><a class="active" href="index.php">HOME</a></li>
+				<li><a href="#">About</a>
                     <ul class="dropdown">
-                        <li><a href="#">Sub-1</a></li>
-                        <li><a href="#">Sub-2</a></li>
-                        <li><a href="#">Sub-3</a></li>
-                    </ul>
-                </li>
-				<li><a href="#">item 2</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Sub-1</a></li>
-                        <li><a href="#">Sub-2</a></li>
-                        <li><a href="#">Sub-3</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
                     </ul>
                 </li>
 				<li><a href="#">item 3</a>
