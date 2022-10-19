@@ -45,7 +45,7 @@ body {
 }
 
 /* Add a black background color to the top navigation bar */
-ul.topnav li {
+ul.navnav li {
     overflow: hidden;
     background-color: #e9e9e9;
 }
