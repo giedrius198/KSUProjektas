@@ -23,23 +23,9 @@
         <nav role="navigation">
 			<ul class="navbar">
 				<li><a class="active" href="index.php">HOME</a></li>
-				<li><a href="#">About</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </li>
-				<li><a href="#">item 3</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Sub-1</a></li>
-                        <li><a href="#">Sub-2</a></li>
-                        <li><a href="#">Sub-3</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <input type="text" style="float:right" placeholder="Search..">
-                </li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">item 3</a></li>
+                <li><input type="text" placeholder="Search.."></li>
 			</ul>
 		</nav>
 
