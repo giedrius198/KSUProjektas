@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home page</title>
-        <link rel="stylesheet" type="text/css" href="\style\main.css">
+        <link rel="stylesheet" type="text/css" href="C:\Users\Anastasija\Documents\GitHub\KSUProjektas\style\main.css">
     </head>
     <body>
         <header>
