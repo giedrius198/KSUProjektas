@@ -40,7 +40,7 @@
                     header("Location: login.php");
                 }else{                        
                     $_SESSION['user']=$email;
-                    header("Location: index.html");
+                    header("Location: index.php");
                 }
                 $conn->close();
             }    

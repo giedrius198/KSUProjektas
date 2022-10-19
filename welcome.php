@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
         <title>Wellcome</title>
 
-        <style></style>
+        <style>
+            body{ font: 14px sans-serif; text-align: center; }
+        </style>
     </head>
     <body>
 
