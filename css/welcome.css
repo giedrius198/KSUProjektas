@@ -93,7 +93,7 @@ li:last-child {
 }
 
 .join{
-    min-height: 545px;
+    min-height: 445px;
     display: flex;
     align-items: center;
     justify-content: center;
