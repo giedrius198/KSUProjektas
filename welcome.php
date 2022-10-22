@@ -1,3 +1,10 @@
+<?php
+    session start();
+
+    if(!isset($_SESSION['useris'])){
+        header("Location: index.php");
+    }
+?>    
 <!DOCTYPE html>
 <html>
     <head>
