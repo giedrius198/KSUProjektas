@@ -92,11 +92,9 @@ li:last-child {
     font-size: 17px;
 }
 
-.join{
+main{
     min-height: 445px;
     display: flex;
-    flex-direction: column;
-    width: 400px;
     align-items: center;
     justify-content: center;
 }
