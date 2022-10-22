@@ -26,13 +26,14 @@
 			</ul>
 		</nav>
 
-        <div style="text-align: center">
-            <h1>Wellcome</h1>
-            <p>You must be logged in or registered user to use all features.</p>
-            <button type="button" id="logIn" class="btn btn-light">Autorizacija</button>
-            <button type="button" id="Reg" class="btn btn-dark">Registracija</button>
-        </div>
-
+        <main>
+            <div class="join">
+                <h1>Wellcome</h1>
+                <p>You must be logged in or registered user to use all features.</p>
+                <button type="button" id="logIn" class="btn btn-light">Autorizacija</button>
+                <button type="button" id="Reg" class="btn btn-dark">Registracija</button>
+            </div>
+        </main>
         <footer></footer>
 
         <script type="text/javascript">
