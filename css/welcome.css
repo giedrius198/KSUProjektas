@@ -105,6 +105,11 @@ h2{
     text-align: center;
 }
 
+.form-group{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
 .button {
     display: flex;
     padding: 15px 25px;
