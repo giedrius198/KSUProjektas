@@ -28,8 +28,8 @@
 
         <main>
             <div class="join">
-                <h1>Wellcome</h1>
-                <p>You must be logged in or registered user to use all features.</p>
+                <h1>Wellcome</h1><br />
+                <p>You must be logged in or registered user to use all features.</p><br />
                 <button type="button" id="logIn" class="btn btn-light">Autorizacija</button>
                 <button type="button" id="Reg" class="btn btn-dark">Registracija</button>
             </div>
