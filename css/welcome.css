@@ -91,6 +91,14 @@ li:last-child {
     margin-right: 16px;
     font-size: 17px;
 }
+
+main{
+    min-height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .button {
     display: inline-block;
     padding: 15px 25px;
