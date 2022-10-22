@@ -5,11 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
         <title>Wellcome</title>
 
+        <link rel="stylesheet" type="text/css" href="css\main.css"> 
         <style>
             body{ font: 14px sans-serif; text-align: center; }
         </style>
     </head>
     <body>
+        <header>
+            <div class="header">
+                <a href="#default" class="logo">CompanyLogo</a>
+            </div> 
+        </header>
+        
+        <nav role="navigation">
+			<ul class="navbar">
+				<li><a class="active" href="index.php">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">ARTICLES</a></li>
+                <li style="float:right"><input type="text" placeholder="IEŠKOTI..."></li>
+			</ul>
+		</nav>
 
         <div style="text-align: center">
             <h1>Wellcome</h1>
