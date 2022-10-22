@@ -91,21 +91,33 @@ li:last-child {
     margin-right: 16px;
     font-size: 17px;
 }
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
 
-.browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-}
-  
-  
-  .text{
-    text-align: justify;
-}
-  
-  .comment{
-    margin-left: 85%;
+.button:hover {background-color: #2ade30}
+
+.button:active {
+    background-color: #2ade30;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
+footer{
+    background-color: grey;
+    min-height: 90px;
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -120,37 +132,4 @@ li:last-child {
     .navbar input[type=text] {
         border: 1px solid #ccc;
     }
-}
-
-
-input[type=submit]{
-   padding: 10px;
-   background: #e3e3e3;
-   border: unset;
-   cursor: pointer;
-}
-
-input[type=submit]:hover{
-    background-color: #E0FFFF;              
-}
-
-p{
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-            
-a{
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-a:hover{
-  color: #0056b3;
-  text-decoration: underline;
-}            
-
-footer{
-    background-color: grey;
-    min-height: 90px;
 }
