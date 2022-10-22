@@ -29,10 +29,12 @@
         <main>
                 <h1>Wellcome</h1><br />
                 <p>You must be logged in or registered user to use all features.</p><br />
-                <button type="button" id="logIn" class="btn btn-light">Autorizacija</button>
-                <button type="button" id="Reg" class="btn btn-dark">Registracija</button>
+                <div class="form-group">
+                    <button type="button" id="logIn" class="btn btn-light">Autorizacija</button>
+                    <button type="button" id="Reg" class="btn btn-dark">Registracija</button>
+                </div>    
         </main>
-        
+
         <footer></footer>
 
         <script type="text/javascript">
