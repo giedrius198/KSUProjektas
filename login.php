@@ -54,9 +54,7 @@
     </head>
     <body>
         <header>
-            <div class="header">
-                <a href="#default" class="logo">CompanyLogo</a>
-            </div> 
+
         </header>
         <main>
             <div class="wrapper">
