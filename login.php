@@ -53,7 +53,11 @@
         <link rel="stylesheet" type="text/css" href="css\login.css">         
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="header">
+                <a href="#default" class="logo">CompanyLogo</a>
+            </div> 
+        </header>
         <main>
             <div class="wrapper">
                 <h2>Prisijungimas prie sistemos</h2>
