@@ -119,7 +119,8 @@ h2{
     height: 30px;
     text-decoration: none;
     padding-top: 9px;
-    color: #84f009d6;
+    padding-bottom: 9px;
+    color: #05ba29d6;
     text-align: center;
     line-height: 20px;
     display: block;
@@ -134,7 +135,7 @@ h2{
   }
   
 .btn1, .btn2:not(.active):hover,
-.btn1:not(.active):focus {
+.btn1, .btn2:not(.active):focus {
     transition: color 200ms linear, text-shadow 500ms linear;
     color: #fff;
     text-shadow: 0 0 21px rgba(36, 145, 46, 0.5), 0 0 10px rgba(105, 223, 86, 0.4), 0 0 2px #153c15;
