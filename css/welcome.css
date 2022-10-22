@@ -114,7 +114,7 @@ h2{
     margin-right: 20px;
 }
 
-.btn1 {
+.btn1, .btn2 {
     width: 150px;
     height: 30px;
     text-decoration: none;
