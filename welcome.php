@@ -1,7 +1,7 @@
 <?php
     session start();
 
-    if(!isset($_SESSION['useris'])){
+    if(!isset($_SESSION['user'])){
         header("Location: index.php");
     }
 ?>    
