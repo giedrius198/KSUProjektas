@@ -92,7 +92,7 @@ li:last-child {
     font-size: 17px;
 }
 
-main{
+.join{
     min-height: 545px;
     display: flex;
     align-items: center;
