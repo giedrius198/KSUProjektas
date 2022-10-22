@@ -44,25 +44,7 @@
                 }
                 $conn->close();
             }    
-    }    
-                    
-/*
-                            if(password_verify($password, $hashed_password)){
-                                // Password is correct, so start a new session
-                                session_start();
-                                
-                                // Store data in session variables
-                                $_SESSION["loggedin"] = true;
-                                $_SESSION["id"] = $id;
-                                $_SESSION["email"] = $email;
-                                
-                                // Redirect user to welcome page
-                                header("location: mano_profilis.php");
-                            } else{
-                                // Password is not valid, display a generic error message    
-                                $login_err = "Neteisingas el.paštas arba slaptažodis";
-                            }
-*/
+    }   
 ?>
 
 <!DOCTYPE html>
