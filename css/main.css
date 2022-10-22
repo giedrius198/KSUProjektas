@@ -58,6 +58,7 @@ ul {
 
 li {
     float: left;
+    display: inline;
 }
 
 li a {
@@ -95,16 +96,16 @@ li:last-child {
 .browser > h2, p {
     margin: 4px;
     font-size: 90%;
-  }
+}
   
   
   .text{
     text-align: justify;
-  }
+}
   
   .comment{
     margin-left: 85%;
-  }
+}
 
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
