@@ -5,18 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
         <title>Wellcome</title>
 
+        <link rel="stylesheet" type="text/css" href="css\welcome.css"> 
         <style>
             body{ font: 14px sans-serif; text-align: center; }
         </style>
     </head>
     <body>
+        <header>
+            <div class="header">
+                <a href="#default" class="logo">CompanyLogo</a>
+            </div> 
+        </header>
+        
+        <nav role="navigation">
+			<ul class="navbar">
+				<li><a class="active" href="index.php">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">ARTICLES</a></li>
+                <li style="float:right"><input type="text" placeholder="IEŠKOTI..."></li>
+			</ul>
+		</nav>
 
-        <div style="text-align: center">
-            <h1>Wellcome</h1>
-            <p>You must be logged in or registered user to use all features.</p>
-            <button type="button" id="logIn" class="btn btn-light" data-mdb-ripple-color="dark">Log in</button>
-            <button type="button" id="Reg" class="btn btn-dark">Register</button>
-        </div>
+        <main>
+                <h1>Wellcome</h1><br />
+                <p>You must be logged in or registered user to use all features.</p><br />
+                <div class="form-group">
+                    <button type="button" id="logIn" class="btn1">Autorizacija</button>
+                    <button type="button" id="Reg" class="btn2">Registracija</button>
+                </div>    
+        </main>
+
+        <footer></footer>
 
         <script type="text/javascript">
             document.getElementById("logIn").onclick = function () {

@@ -1,6 +1,8 @@
-body {
+all-browsers {
     margin: 0;
-}
+    padding: 5px;
+    background-color: lightgray;
+  }
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -90,6 +92,20 @@ li:last-child {
     font-size: 17px;
 }
 
+.browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+}
+  
+  
+  .text{
+    text-align: justify;
+}
+  
+  .comment{
+    margin-left: 85%;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -107,31 +123,3 @@ li:last-child {
 }
 
 
-all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  
-  
-  .text{
-    text-align: justify;
-  }
-  
-  .comment{
-    margin-left: 85%;
-  }
